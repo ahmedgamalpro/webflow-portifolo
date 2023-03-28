@@ -1,0 +1,235 @@
+
+
+.forth{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 40px;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 570px;
+
+    background: #E9DEFF;
+    border-radius: 40px;
+    h2{
+        width: 302px;
+        height: 50px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 38px;
+        line-height: 100%;
+        /* identical to box height, or 50px */
+
+        letter-spacing: -0.02em;
+
+        color: #0B001A;
+
+    }
+    
+    .arrow-1{
+        position: absolute;
+        right: 20px;
+        top: 3499px;
+    }
+    .arrow-2{
+        position: absolute;
+        right: 20px;
+        top: 3594px;
+    }
+    .arrow-3{
+        position: absolute;
+        right: 20px;
+        top: 3688px;
+    }
+    .arrow-4{
+        position: absolute;
+        right: 22px;
+        top: 3787px;
+    }
+    .awards{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+
+        width: 109%;
+        height: 392px;
+
+        border-top: 1px solid rgba(23, 0, 52, 0.4);
+        border-radius: 0px;
+        
+        .award{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding-top: 20px;
+            gap: 1px;
+
+            width: 100%;
+            border-bottom: 1px solid rgba(23, 0, 52, 0.4);
+            height: 98px;
+            h4{
+                height: 36px;
+
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 20px;
+                /* identical to box height, or 160% */
+
+
+                color: #0B001A;
+            }
+            p{
+                height: 22px;
+
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 160%;
+                /* or 22px */
+
+                
+
+                color: #0B001A;
+            }
+            
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+    .forth{
+        .arrow-1{
+            right: 20px;
+            top: 3784px;
+        }
+        .arrow-2{
+            right: 20px;
+            top: 3882px;
+        }
+        .arrow-3{
+            right: 20px;
+            top: 3983px;
+        }
+        .arrow-4{
+            right: 20px;
+            top: 4084px;
+        }
+        .awards{
+            .award{
+                h4{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .forth{
+        
+        flex-direction: row;
+       
+        
+       
+        
+        height: 512px;
+    
+       
+        h2{
+            width: 400px;
+            
+    
+        }
+        .arrow-1{
+            right: 65px;
+            top: 2352px;
+        }
+        .arrow-2{
+            right: 65px;
+            top: 2459px;
+        }
+        .arrow-3{
+            right: 65px;
+            top: 2553px
+        }
+        .arrow-4{
+            right: 65px;
+            top: 2651px;
+        }
+        .awards{
+           
+            padding: 0px;
+    
+            width: 715px;
+            height: 392px;
+    
+           
+            
+            
+            .award{
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                padding-top: 20px;
+                gap: 160px;
+    
+                width: 100%;
+                border-bottom: 1px solid rgba(23, 0, 52, 0.4);
+                height: 98px;
+                h4{
+                    height: 36px;
+    
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 35px;
+                    /* identical to box height, or 160% */
+    
+    
+                    color: #0B001A;
+                }
+                p{
+                    height: 22px;
+    
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 160%;
+                    /* or 22px */
+    
+                    
+    
+                    color: #0B001A;
+                }
+                
+            }
+        }
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+}

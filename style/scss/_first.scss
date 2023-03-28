@@ -1,0 +1,115 @@
+.first{
+    margin: 20px auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width:97%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 36px;
+    gap: 10px;
+
+    
+
+    background: linear-gradient(93.26deg, #8338EC 10.4%, #9C2EF5 101.06%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.card:last-child{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 36px;
+    gap: 10px;
+
+    
+
+    background: linear-gradient(93.26deg, #9E2DF6 10.4%, #B923FF 101.06%), #E9DEFF;
+    border-radius: 20px;
+
+}
+
+.card{
+    h2{
+        width: 90%;
+        height: 39px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+        /* identical to box height */
+
+        letter-spacing: -0.01em;
+
+        color: #FFFFFF;
+    }
+    .details{
+        width: 90%;
+        height: 256px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+        /* or 22px */
+
+
+        color: #FFFFFF;
+
+    }
+    .tags{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+
+        width: 301.19px;
+        height: 33.8px;
+    }
+}
+
+.tag{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5.89831px 11.7966px;
+
+    
+    height: 33.8px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 19.1695px;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .first{
+        flex-direction: row;
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    
+}
